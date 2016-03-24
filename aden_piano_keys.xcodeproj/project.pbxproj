@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED7301641CA4A36E00D4522F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7301631CA4A36E00D4522F /* AppDelegate.swift */; };
+		ED7301661CA4A36F00D4522F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7301651CA4A36F00D4522F /* ViewController.swift */; };
+		ED7301691CA4A36F00D4522F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7301671CA4A36F00D4522F /* Main.storyboard */; };
+		ED73016C1CA4A36F00D4522F /* aden_piano_keys.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED73016A1CA4A36F00D4522F /* aden_piano_keys.xcdatamodeld */; };
+		ED73016E1CA4A36F00D4522F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED73016D1CA4A36F00D4522F /* Assets.xcassets */; };
+		ED7301711CA4A36F00D4522F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED73016F1CA4A36F00D4522F /* LaunchScreen.storyboard */; };
+		ED73017C1CA4A37000D4522F /* aden_piano_keysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73017B1CA4A37000D4522F /* aden_piano_keysTests.swift */; };
+		ED7301871CA4A37000D4522F /* aden_piano_keysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7301861CA4A37000D4522F /* aden_piano_keysUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7301781CA4A37000D4522F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7301581CA4A36E00D4522F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED73015F1CA4A36E00D4522F;
+			remoteInfo = aden_piano_keys;
+		};
+		ED7301831CA4A37000D4522F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7301581CA4A36E00D4522F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED73015F1CA4A36E00D4522F;
+			remoteInfo = aden_piano_keys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED7301601CA4A36E00D4522F /* aden_piano_keys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aden_piano_keys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7301631CA4A36E00D4522F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED7301651CA4A36F00D4522F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED7301681CA4A36F00D4522F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED73016B1CA4A36F00D4522F /* aden_piano_keys.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aden_piano_keys.xcdatamodel; sourceTree = "<group>"; };
+		ED73016D1CA4A36F00D4522F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED7301701CA4A36F00D4522F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED7301721CA4A36F00D4522F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7301771CA4A37000D4522F /* aden_piano_keysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aden_piano_keysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED73017B1CA4A37000D4522F /* aden_piano_keysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aden_piano_keysTests.swift; sourceTree = "<group>"; };
+		ED73017D1CA4A37000D4522F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7301821CA4A37000D4522F /* aden_piano_keysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aden_piano_keysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7301861CA4A37000D4522F /* aden_piano_keysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aden_piano_keysUITests.swift; sourceTree = "<group>"; };
+		ED7301881CA4A37000D4522F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED73015D1CA4A36E00D4522F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7301741CA4A37000D4522F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED73017F1CA4A37000D4522F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED7301571CA4A36E00D4522F = {
+			isa = PBXGroup;
+			children = (
+				ED7301621CA4A36E00D4522F /* aden_piano_keys */,
+				ED73017A1CA4A37000D4522F /* aden_piano_keysTests */,
+				ED7301851CA4A37000D4522F /* aden_piano_keysUITests */,
+				ED7301611CA4A36E00D4522F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7301611CA4A36E00D4522F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7301601CA4A36E00D4522F /* aden_piano_keys.app */,
+				ED7301771CA4A37000D4522F /* aden_piano_keysTests.xctest */,
+				ED7301821CA4A37000D4522F /* aden_piano_keysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7301621CA4A36E00D4522F /* aden_piano_keys */ = {
+			isa = PBXGroup;
+			children = (
+				ED7301631CA4A36E00D4522F /* AppDelegate.swift */,
+				ED7301651CA4A36F00D4522F /* ViewController.swift */,
+				ED7301671CA4A36F00D4522F /* Main.storyboard */,
+				ED73016D1CA4A36F00D4522F /* Assets.xcassets */,
+				ED73016F1CA4A36F00D4522F /* LaunchScreen.storyboard */,
+				ED7301721CA4A36F00D4522F /* Info.plist */,
+				ED73016A1CA4A36F00D4522F /* aden_piano_keys.xcdatamodeld */,
+			);
+			path = aden_piano_keys;
+			sourceTree = "<group>";
+		};
+		ED73017A1CA4A37000D4522F /* aden_piano_keysTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED73017B1CA4A37000D4522F /* aden_piano_keysTests.swift */,
+				ED73017D1CA4A37000D4522F /* Info.plist */,
+			);
+			path = aden_piano_keysTests;
+			sourceTree = "<group>";
+		};
+		ED7301851CA4A37000D4522F /* aden_piano_keysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7301861CA4A37000D4522F /* aden_piano_keysUITests.swift */,
+				ED7301881CA4A37000D4522F /* Info.plist */,
+			);
+			path = aden_piano_keysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED73015F1CA4A36E00D4522F /* aden_piano_keys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED73018B1CA4A37000D4522F /* Build configuration list for PBXNativeTarget "aden_piano_keys" */;
+			buildPhases = (
+				ED73015C1CA4A36E00D4522F /* Sources */,
+				ED73015D1CA4A36E00D4522F /* Frameworks */,
+				ED73015E1CA4A36E00D4522F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aden_piano_keys;
+			productName = aden_piano_keys;
+			productReference = ED7301601CA4A36E00D4522F /* aden_piano_keys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7301761CA4A37000D4522F /* aden_piano_keysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED73018E1CA4A37000D4522F /* Build configuration list for PBXNativeTarget "aden_piano_keysTests" */;
+			buildPhases = (
+				ED7301731CA4A37000D4522F /* Sources */,
+				ED7301741CA4A37000D4522F /* Frameworks */,
+				ED7301751CA4A37000D4522F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7301791CA4A37000D4522F /* PBXTargetDependency */,
+			);
+			name = aden_piano_keysTests;
+			productName = aden_piano_keysTests;
+			productReference = ED7301771CA4A37000D4522F /* aden_piano_keysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED7301811CA4A37000D4522F /* aden_piano_keysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7301911CA4A37000D4522F /* Build configuration list for PBXNativeTarget "aden_piano_keysUITests" */;
+			buildPhases = (
+				ED73017E1CA4A37000D4522F /* Sources */,
+				ED73017F1CA4A37000D4522F /* Frameworks */,
+				ED7301801CA4A37000D4522F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7301841CA4A37000D4522F /* PBXTargetDependency */,
+			);
+			name = aden_piano_keysUITests;
+			productName = aden_piano_keysUITests;
+			productReference = ED7301821CA4A37000D4522F /* aden_piano_keysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7301581CA4A36E00D4522F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = adenLab;
+				TargetAttributes = {
+					ED73015F1CA4A36E00D4522F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ED7301761CA4A37000D4522F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED73015F1CA4A36E00D4522F;
+					};
+					ED7301811CA4A37000D4522F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED73015F1CA4A36E00D4522F;
+					};
+				};
+			};
+			buildConfigurationList = ED73015B1CA4A36E00D4522F /* Build configuration list for PBXProject "aden_piano_keys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED7301571CA4A36E00D4522F;
+			productRefGroup = ED7301611CA4A36E00D4522F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED73015F1CA4A36E00D4522F /* aden_piano_keys */,
+				ED7301761CA4A37000D4522F /* aden_piano_keysTests */,
+				ED7301811CA4A37000D4522F /* aden_piano_keysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED73015E1CA4A36E00D4522F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7301711CA4A36F00D4522F /* LaunchScreen.storyboard in Resources */,
+				ED73016E1CA4A36F00D4522F /* Assets.xcassets in Resources */,
+				ED7301691CA4A36F00D4522F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7301751CA4A37000D4522F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7301801CA4A37000D4522F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED73015C1CA4A36E00D4522F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7301661CA4A36F00D4522F /* ViewController.swift in Sources */,
+				ED73016C1CA4A36F00D4522F /* aden_piano_keys.xcdatamodeld in Sources */,
+				ED7301641CA4A36E00D4522F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7301731CA4A37000D4522F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED73017C1CA4A37000D4522F /* aden_piano_keysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED73017E1CA4A37000D4522F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7301871CA4A37000D4522F /* aden_piano_keysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7301791CA4A37000D4522F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED73015F1CA4A36E00D4522F /* aden_piano_keys */;
+			targetProxy = ED7301781CA4A37000D4522F /* PBXContainerItemProxy */;
+		};
+		ED7301841CA4A37000D4522F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED73015F1CA4A36E00D4522F /* aden_piano_keys */;
+			targetProxy = ED7301831CA4A37000D4522F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED7301671CA4A36F00D4522F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7301681CA4A36F00D4522F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED73016F1CA4A36F00D4522F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7301701CA4A36F00D4522F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7301891CA4A37000D4522F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED73018A1CA4A37000D4522F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED73018C1CA4A37000D4522F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aden_piano_keys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "voila.aden-piano-keys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED73018D1CA4A37000D4522F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = aden_piano_keys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "voila.aden-piano-keys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED73018F1CA4A37000D4522F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aden_piano_keysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "voila.aden-piano-keysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aden_piano_keys.app/aden_piano_keys";
+			};
+			name = Debug;
+		};
+		ED7301901CA4A37000D4522F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = aden_piano_keysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "voila.aden-piano-keysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aden_piano_keys.app/aden_piano_keys";
+			};
+			name = Release;
+		};
+		ED7301921CA4A37000D4522F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aden_piano_keysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "voila.aden-piano-keysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aden_piano_keys;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED7301931CA4A37000D4522F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = aden_piano_keysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "voila.aden-piano-keysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = aden_piano_keys;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED73015B1CA4A36E00D4522F /* Build configuration list for PBXProject "aden_piano_keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7301891CA4A37000D4522F /* Debug */,
+				ED73018A1CA4A37000D4522F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED73018B1CA4A37000D4522F /* Build configuration list for PBXNativeTarget "aden_piano_keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED73018C1CA4A37000D4522F /* Debug */,
+				ED73018D1CA4A37000D4522F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED73018E1CA4A37000D4522F /* Build configuration list for PBXNativeTarget "aden_piano_keysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED73018F1CA4A37000D4522F /* Debug */,
+				ED7301901CA4A37000D4522F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED7301911CA4A37000D4522F /* Build configuration list for PBXNativeTarget "aden_piano_keysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7301921CA4A37000D4522F /* Debug */,
+				ED7301931CA4A37000D4522F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED73016A1CA4A36F00D4522F /* aden_piano_keys.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED73016B1CA4A36F00D4522F /* aden_piano_keys.xcdatamodel */,
+			);
+			currentVersion = ED73016B1CA4A36F00D4522F /* aden_piano_keys.xcdatamodel */;
+			path = aden_piano_keys.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED7301581CA4A36E00D4522F /* Project object */;
+}
